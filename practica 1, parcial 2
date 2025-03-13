@@ -1,0 +1,7 @@
+class Beethoven:
+    genero = "clasica"
+    
+    def __init__(self, nombre, año):
+              print(f"Creando música: {self.nombre} ({self.año})")
+        self.nombre = nombre
+        self.año = año
