@@ -1,0 +1,8 @@
+class consola:
+    pass
+class consola1(consola):
+    pass
+class consola2:
+    pass
+class consola3(consola1, consola2):
+    pass
